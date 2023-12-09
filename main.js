@@ -1,4 +1,4 @@
-const apiKey = "8974bfb68003acc1824974ec44db3495";
+const apiKey = "";//place your Api key here. I used API form  https://openweathermap.org/api  for this project.
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 const revApiUrl = "http://api.openweathermap.org/geo/1.0/reverse?";
  
