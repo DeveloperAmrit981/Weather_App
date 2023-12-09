@@ -109,6 +109,12 @@
     transform: translate(-50%, -50%);
 }
 
+.instruction {
+    width: 75%;
+    margin: 10px auto;
+    text-align: left;
+}
+
 .error {
     font-size: 1.25rem;
     padding: 20px;
