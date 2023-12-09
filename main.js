@@ -1,5 +1,6 @@
 const apiKey = "8974bfb68003acc1824974ec44db3495";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
+const revApiUrl = "http://api.openweathermap.org/geo/1.0/reverse?";
  
 
 const searchBox = document.querySelector('.search input');
@@ -13,7 +14,7 @@ const suggestion_container = document.querySelector(".suggestion_container");
 // Function to get the city name from latitude and longitude
 async function getCityName(latitude, longitude) {
     // Replace with the URL of the reverse geocoding API you are using
-    const apiUrl = `http://api.openweathermap.org/geo/1.0/reverse?&appid=${apiKey}`;
+    const apiUrl = revApiUrl +  `&appid=${apiKey}`;
 
     try {
         const response = await fetch(`${apiUrl}&lon=${longitude}&lat=${latitude}`);
