@@ -1,5 +1,7 @@
 # Weather_App
 
+view this project: https://developeramrit981.github.io/Weather_App/
+
 To use this App get open weather map api form https://openweathermap.org/api
 
 Once you get your API enter the api key in the main.js file
