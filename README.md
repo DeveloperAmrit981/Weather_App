@@ -13,3 +13,4 @@ What can you do in this Weather App.
 3) The app will fetch current temperature of the city, humidity and wind speed and a short description of the weather condition.
 4) It will also provide different suggestions according to the weather condition.
    
+![WeatherApp](https://github.com/DeveloperAmrit981/Weather_App/assets/147136907/75876d34-dbfd-4f2f-91c0-21322903ef55)
